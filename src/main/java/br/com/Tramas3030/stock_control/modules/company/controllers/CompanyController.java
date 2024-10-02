@@ -16,9 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CompanyController {
 
     @Autowired
-    private CompanyRepository companyRepository;
-
-    @Autowired
     private CreateCompanyUseCase createCompanyUseCase;
 
     @PostMapping("/")
